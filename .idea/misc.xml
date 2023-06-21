@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/drawable/icon.xml" value="0.2203125" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/activity_main.xml" value="0.12681159420289856" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/fragment_list.xml" value="0.2" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/fragment_owner.xml" value="0.22" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/fragment_portin_detailinfo.xml" value="0.2" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/fragment_portion.xml" value="0.12681159420289856" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/mainpage.xml" value="0.22" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/owner_details.xml" value="0.12681159420289856" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/ownerpage1.xml" value="0.22" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/ownersignin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/ownersview.xml" value="0.22" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/renter_tabledetails.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/renterinfopage.xml" value="0.2" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/rentersignin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/layout/rentportion_info.xml" value="0.12681159420289856" />
+        <entry key="..\:/Desktop/Fragmentsrecycler/app/src/main/res/menu/search_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home_list">
+
+    <fragment
+        android:id="@+id/home_list"
+        android:name="com.example.fragmentsrecycler.FragmentList"
+        tools:layout="@layout/fragment_list"
+        android:label="FragmentList" >
+        <action
+            android:id="@+id/action_home_list_to_portionFragment"
+            app:destination="@id/portionFragment"
+            app:popUpTo="@id/home_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/portionFragment"
+        android:name="com.example.fragmentsrecycler.PortionFragment"
+        tools:layout="@layout/fragment_portion"
+        android:label="PortionFragment" >
+        <action
+            android:id="@+id/action_portionFragment_to_portin_detailinfo"
+            app:destination="@id/portin_detailinfo"
+            app:popUpTo="@id/portionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/portin_detailinfo"
+        android:name="com.example.fragmentsrecycler.Portin_detailinfo"
+        tools:layout="@layout/fragment_portin_detailinfo"
+        android:label="Portin_detailinfo" >
+        <action
+            android:id="@+id/action_portin_detailinfo_to_home_list"
+            app:destination="@id/renterview" />
+    </fragment>
+    <activity
+        android:id="@+id/renterview"
+        android:name="com.example.fragmentsrecycler.Renterview"
+        android:label="Renterview" />
+</navigation>
